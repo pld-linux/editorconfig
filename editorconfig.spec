@@ -11,7 +11,7 @@ Source0:	https://github.com/editorconfig/editorconfig-core-c/archive/v%{version}
 URL:		https://editorconfig.org/
 BuildRequires:	cmake >= 3.5.1
 BuildRequires:	doxygen
-BuildRequires:	pcre2-devel
+BuildRequires:	pcre2-8-devel
 BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpmbuild(macros) >= 1.605
 Requires:	%{name}-libs = %{version}-%{release}
@@ -35,7 +35,6 @@ formatu pliku przez obsługiwane edytory.
 Summary:	Library handling EditorConfig files
 Summary(pl.UTF-8):	Biblioteka obsługująca pliki EditorConfig
 Group:		Libraries
-Requires:	%{name} = %{version}-%{release}
 
 %description libs
 Library handling EditorConfig files, a file format defining coding
