@@ -1,13 +1,13 @@
 Summary:	EditorConfig core library and tool
 Summary(pl.UTF-8):	Podstawowa biblioteka i narzędzie EditorConfig
 Name:		editorconfig
-Version:	0.12.6
+Version:	0.12.7
 Release:	1
 License:	BSD
 Group:		Libraries
 #Source0Download: https://github.com/editorconfig/editorconfig-core-c/releases
 Source0:	https://github.com/editorconfig/editorconfig-core-c/archive/v%{version}/editorconfig-core-c-%{version}.tar.gz
-# Source0-md5:	548f661d514b8a6b2161801212387a3c
+# Source0-md5:	26d71a44ba4a0455807858ede0432d85
 URL:		https://editorconfig.org/
 BuildRequires:	cmake >= 3.5.1
 BuildRequires:	doxygen
